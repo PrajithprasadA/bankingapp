@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+  #header {
+    
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: -1;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    margin: 0;
+    
+  }
+
+
+nav{
+    background-color: white;
+
+}
+label.logo{
+    color: rgb(26, 26, 93);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    margin: 20px;
+    font-weight: bold;
+
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+
+}
+
+nav ul li a{
+    color: rgb(10, 85, 106);
+    font-size: 20px;
+    padding: 9px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+a.active,a:hover{
+    color: white;
+    background: rgb(34, 117, 185);
+    transition: .5s;
+    
+}
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden; /* Clearfix for floated content */
+  }
+  .content {
+    font-size: 20px;
+    float: left; /* Float content to the left */
+    width: 100%; /* Adjust width of content */
+    padding-right: 20px; /* Add some space between content and image */
+    margin-top: 100px;
+    text-align: justify;
+  }
+  .image {
+    float: right; /* Float image to the right */
+    width: 100%; /* Adjust width of image */
+    
+    
+  }
+  /* Clearfix to prevent container collapse */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.head-1{
+    color: blue;
+    margin-top: 80px;
+    margin-left: 230px;
+    
+}
+#box {
+    background-color: white; /* Background color of the box */
+    padding: 20px; /* Padding around the content */
+    margin: 0 auto; /* Center the box */
+    max-width: 600px; /* Max width of the box */
+    border-radius: 10px; /* Border radius for rounded corners */
+    margin-left: 80px;
+  }
+  .head-1 h1 {
+    font-weight: bold;
+  }
+  
+  .image-2{
+    float: left;
+  }
+  #head{
+    color: blue;
+    margin-top: 90px;
+    margin-right: 300px;
+    
+}#head h1{
+  font-weight: bold;
+  
+}
+
+.contents{
+  text-align: justify;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 250px;
+  margin-left: 250px;
+
+}
+.footerset{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 50px;
+  
+}
+footer{
+  background-color: whitesmoke;
+  width:100% ;
+  height: 420px;
+}
+.footerdiv1 p{
+  text-align: justify;
+  font-size: 15px;
+  
+}
+.footerdiv{
+  margin: 50px;
+}
+#footerbox {
+  background-color: whitesmoke; /* Background color of the box */
+  padding: 20px; /* Padding around the content */
+  margin: 0 auto; /* Center the box */
+  max-width: 250px; /* Max width of the box */
+  border-radius: 10px; /* Border radius for rounded corners */
+  margin-right: 40px;
+  max-height: 250px;
+}
+.thick-h4 {
+  font-weight: bold; /* You can also use numeric values like 600, 700, etc. */
+}
+.footerdiv2 {
+  font-size: 20px;
+}
+.sociallogo{
+  width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin: 5px;
+}
+
+
+.footerdiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sentence {
+  flex: 1; /* Take remaining space */
+  text-align: left;
+}
+
+.social {
+  flex: 0; /* Don't flex the logo */
+  margin-left: auto; /* Push the logo to the right */
+  display: flex;
+  text-align: right;
+}
+
+.line {
+  width: 100%;
+  height: 01px;
+  background-color: rgb(222, 215, 215); /* Color of the line */
+  margin-top: 10px; /* Spacing between the line and content */
+}
+.thicker-background {
+  background-color: gainsboro; /* Background color of the thicker portion */
+  padding: 20px; /* Add padding for spacing */
+}
+.thicker-background p{
+  text-align: center;
+}
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-53 {
+  -webkit-tap-highlight-color: transparent;
+
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+
+  padding: 0;
+}
+
+.btn-53:disabled {
+  cursor: default;
+}
+
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+
+.btn-53 svg {
+  display: block;
+  
+}
+
+.btn-53 [hidden] {
+  display: none;
+}
+
+.btn-53 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-53 .original {
+  background: whitesmoke;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-53 .letters {
+  display: inline-flex;
+}
+
+.btn-53 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+
+.btn-53 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.btn-53:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.btn-53:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.btn-53:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+
+
+
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px; /* Adjust as needed */
+}
+
+#moving-image-right {
+  position: fixed;
+  top: 5cm; /* Adjust as needed */
+  right: 0;
+  transition: right 0.5s ease, top 0.5s ease, opacity 0.5s ease; /* Smooth transition for movement and opacity */
+}
+
+
+
